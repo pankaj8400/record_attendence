@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // In production, set VITE_API_URL to your Vercel backend URL
 // e.g. https://your-backend.vercel.app/api
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:8000/api';
+const API_BASE = import.meta.env.VITE_API_URL || 'https://record-attendence-uddb.onrender.com/api';
 
 const api = axios.create({
     baseURL: API_BASE,
